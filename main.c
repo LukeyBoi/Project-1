@@ -3,7 +3,7 @@ int main(){
     int a, b, c, d, i;
 printf("Choose what you would like to do today:\n");
 printf("1. Encrypt a message with the rotational cipher\n");
-printf("2. Encrypt a message with the substitution cipher\n");
+printf("2. Encrypt a message with the substitution cipher\n");    //These lines establish the aim of the code.
 printf("3. Decrypt a message in rotational cipher\n");
 printf("4. Decrypt a message in substitution cipher\n");
 scanf("%d", &i);
@@ -13,9 +13,10 @@ scanf("%d", &i);
            scanf("%d", &i);
               if(i==1){
                   printf("Sorry, I haven't completed this yet. Come back later\n");
-              }
+              }                                                                          //Establish a goal of decryption or encryption.
               else if(i==2){
-                  printf("Please enter a value between 1 and 26\n");
+                  printf("Please enter a value between 0 and 26, exclusive\n");
+                  scanf()
               }
       
      
